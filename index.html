@@ -4,8 +4,26 @@
   <meta charset="UTF-8">
   <title>Menú de Servicios - Cataleya</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html, body {
+        height: 100%;
+        width: 100%;
+        background-color: #ffffff;
+      }
+      .full-image {
+        height: 100%;
+        width: 100%;
+        object-fit: contain; /* También podés probar 'cover' */
+        display: block;
+      }
+    </style>
+  
 </head>
-<body style="margin: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background: #fefefe;">
-  <img src="listado.png" alt="Peluquería Cataleya" style="max-width: 100%; height: auto;">
+<body>
+  <img src="listado.png" alt="Peluquería Cataleya" class="full-image" >
 </body>
 </html>
